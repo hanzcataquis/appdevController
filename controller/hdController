@@ -1,0 +1,23 @@
+const m = {
+    main:(req,res) =>{
+        res.render('index');
+    },
+    
+    abc:(req,res) =>{
+        res.render('abc');
+    },
+
+    def:(req,res) =>{
+        res.render('def');
+    },
+
+    ghi:(req,res) =>{
+        res.render('ghi');
+    },
+
+    jkl:(req,res) =>{
+        res.render('jkl');
+    }
+};
+
+module.exports = m;
